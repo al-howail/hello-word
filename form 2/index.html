@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+        *{text-align: left;
+
+
+        }
+        input[type="submit"] {
+            
+            
+            background-color: #3ba93f;
+            color: white;
+            padding: 10px 20px;
+            border: none;  
+        }
+        form{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <H1>Feedback Survey Form</H1>
+    <form >
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br>
+        <label for="feedback_type">Type of Feedback:</label><br>
+        <select id="feedback_type" name="feedback_type" required>
+            <option value="Positive">Positive</option>
+        </select><br>
+        <label for="services_used">Services Used:</label><br>
+        <input type="checkbox" id="service1" name="services_used" value="Service 1" required>
+        <label for="service1">Service 1</label><br>
+        <input type="checkbox" id="service2" name="services_used" value="Service 2" required>
+        <label for="service2">Service 2</label><br>
+        <input type="checkbox" id="service3" name="services_used" value="Service 3" required>
+        <label for="service3">Service 3</label><br>
+        <label for="additional_comments">Additional Comments:</label><br>
+        <textarea id="additional_comments" name="additional_comments" rows="4" cols="50"></textarea><br>
+        <input  type="submit" value="Submit Feedback">
+    </form>
+</body>
+</html>

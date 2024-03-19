@@ -1,0 +1,22 @@
+form {
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input, textarea {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: beige;
+    
+}

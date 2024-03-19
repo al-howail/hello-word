@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.all {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 22px;
+    grid-row-gap: 17px;
+    
+    }
+    div p {color: blue;
+    }
+    div button{
+        width: 100px;
+        height: 30px;
+        background-color: rgb(68, 194, 68);
+        border: none;
+        border-radius: 10px;
+        
+        
+    }
+
+article {
+    border: 1px solid #000000;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 10px;
+    text-align: left;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav{background-color: rgb(39, 52, 47);
+    color: aliceblue;
+    height: 50px;
+}
+.ul{text-align: center;}
+
+ .h1{font-size: 40px;
+text-align: left;}   
+
+footer{
+    background-color: rgb(39, 52, 47);
+    color: aliceblue;
+    height: 50px;
+   
+    text-align: center;
+    text-transform: capitalize;
+    
+
+
+}
